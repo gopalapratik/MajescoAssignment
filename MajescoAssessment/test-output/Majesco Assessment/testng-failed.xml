@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Majesco Assessment]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReportNG"/>
+  </listeners>
+  <test name="Majesco Assessment Test Cases(failed)">
+    <classes>
+      <class name="com.qa.testcases.MajescoPracticalTest2">
+        <methods>
+          <include name="validateAboutMajescoLinkText"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.testcases.MajescoPracticalTest2 -->
+    </classes>
+  </test> <!-- Majesco Assessment Test Cases(failed) -->
+</suite> <!-- Failed suite [Majesco Assessment] -->
